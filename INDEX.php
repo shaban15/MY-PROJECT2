@@ -10,8 +10,12 @@
         <div class="phones">
             <img src="IMG\k-elec.jpg">
         </div>
-        <div class="watches"></div>
-        <div class="bt"></div>
+        <div class="watches">
+            <img src="IMG\funiture.jfif">
+        </div>
+        <div class="bt">
+        <img src="IMG\bt.jfif">
+        </div>
     </section>
 
 </div>

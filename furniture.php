@@ -4,7 +4,7 @@
 <section class="fun2">
     <div class="fun-img " id="funimgBox">
         <button class="fun2but1"><a href="make payments.php">BUY</a></button><BR>
-        <img src="IMG\fun1.jpg" id="funimg" >
+        <img src="IMG\fun1.jfif" id="funimg" >
         <span onclick="closefunimg()">X</span>
         <button class="fun2but2" onclick="alertuser()"><a href="add to cart.php">ADD TO CART</a></button>
     </div>
@@ -21,7 +21,7 @@
 
     <script>
         var funimgBox =document.getElementById("funimgBox");
-var funimg =document.getElementById("fashimg");
+var funimg =document.getElementById("funimg");
 
 function openfunimg (pic){
     funimgBox.style.display ="flex";

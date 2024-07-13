@@ -348,7 +348,9 @@ ul{
         background-color: rgb(161, 245, 245);
         margin-bottom: 40px;
         margin: 20px;
-        
+     
+     
+
     }
 
     .bt{
@@ -360,6 +362,16 @@ ul{
         margin: 20px;
        
     }
+}
+.watches img{
+    width: 100%;
+    height: 390px;
+    border-radius: 10%;
+}
+.bt img{
+    width: 100%;
+    height: 390px;
+    border-radius: 10%;
 }
 
 /* styling about us page */
@@ -1025,30 +1037,83 @@ styling help page */
     margin-top: 12px;
 }
 .mach2{
-    display: flex;
+    height: auto;
+    background-color:rgb(215, 210, 245); 
+    width: 100%;
 }
 
 .machdiv1{
-    width: 32%;
-    background-color: red;
-    text-align: center;
-    height: 210px;
-    margin: 20px;
+    width: 98%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    align-items: center;
+    margin: 10px;
 }
-.machdiv2{
-    background-color: red;
-    text-align: center;
-    width: 32%;
-    height: 210px;
-    margin: 20px;
+.machdiv1 img{
+    width: 100%;
+    cursor: pointer;
+    height: 250px;
 }
-.machdiv3{
-    background-color: red;
-    text-align: center;
-    width: 32%;
-    height: 210px;
-    margin: 20px;
+
+.machdiv1 img:hover{
+    transform: scale(0.8) rotate(-15deg);
+    border-radius: 20px;
 }
+
+.mach-img{
+    width: 100%;
+    height: 90vh;
+    background-color:rgba(0, 0, 0, 0.9);
+    position:fixed;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+.mach-img img{
+    width: 90%;
+    max-width: 500px;
+   
+}
+.mach-img span{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.mach2but1{
+    color: blue;
+    background-color: aqua;
+    border-radius: 10%;
+    border-color: gold;
+    border-width: 10px;
+    font-size: larger;
+    width: 100px;
+    height: 50px;
+}
+.mach2but1 a{
+    color: black;
+    text-decoration: none;
+}
+.mach2but2{
+    color: blue;
+    background-color: aqua;
+    border-radius: 10%;
+    border-color: gold;
+    border-width: 10px;
+    font-size: larger;
+    width: auto;
+    height: 50px;
+}
+.mach2but2 a{
+    color: black;
+    text-decoration: none;
+}
+
 /* end of machinery page styling */
 
 /* sporting page styling */
