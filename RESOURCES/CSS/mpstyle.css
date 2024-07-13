@@ -938,37 +938,76 @@ styling help page */
     height: 700px;
     background-color: aquamarine;
 }
-.fun1{
-    width: 100%;
-    height: 20px;
-    background-color:aqua;
-    text-align: center;
-    margin-top: 12px;
-}
-.fun2{
-    display: flex;
+.fundiv1{
+    width: 98%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    align-items: center;
+    margin: 10px;
 }
 
-.fundiv1{
-    width: 32%;
-    background-color: rgb(20, 5, 241);
-    text-align: center;
-    height: 210px;
-    margin: 20px;
+.fundiv1 img{
+    width: 100%;
+    cursor: pointer;
+    height: 250px;
 }
-.fundiv2{
-    background-color: rgb(20, 5, 241);
-    text-align: center;
-    width: 32%;
-    height: 210px;
-    margin: 20px;
+.fundiv1 img:hover{
+    transform: scale(0.8) rotate(-15deg);
+    border-radius: 20px;
 }
-.fundiv3{
-    background-color: rgb(20, 5, 241);
-    text-align: center;
-    width: 32%;
-    height: 210px;
-    margin: 20px;
+
+.fun-img{
+    width: 100%;
+    height: 90vh;
+    background-color:rgba(0, 0, 0, 0.9);
+    position:fixed;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+.fun-img img{
+    width: 90%;
+    max-width: 500px;
+   
+}
+.fun-img span{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.fun2but1{
+    color: blue;
+    background-color: aqua;
+    border-radius: 10%;
+    border-color: gold;
+    border-width: 10px;
+    font-size: larger;
+    width: 100px;
+    height: 50px;
+}
+.fun2but1 a{
+    color: black;
+    text-decoration: none;
+}
+.fun2but2{
+    color: blue;
+    background-color: aqua;
+    border-radius: 10%;
+    border-color: gold;
+    border-width: 10px;
+    font-size: larger;
+    width: auto;
+    height: 50px;
+}
+.fun2but2 a{
+    color: black;
+    text-decoration: none;
 }
 /* end of furniture page styling */
 
